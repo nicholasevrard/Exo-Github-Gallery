@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.photo-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-item h3 {
+    margin: 10px;
+    text-align: start;
+}
+
+.photo-item p {
+    margin: 10px;
+}
